@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@drawable/bg_level">
+
+    <TextView
+        android:id="@+id/tvSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Chọn cấp độ"
+        android:textColor="#2196F3"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEasy"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:backgroundTint="#E91E63"
+        android:text="Dễ"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSelect" />
+
+    <Button
+        android:id="@+id/btnMedium"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="56dp"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:text="Trung bình"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEasy" />
+
+    <Button
+        android:id="@+id/btnHard"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:text="Khó"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnMedium" />
+</androidx.constraintlayout.widget.ConstraintLayout>

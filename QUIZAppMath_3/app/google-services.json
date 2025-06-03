@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "748258728250",
+    "project_id": "android-quiz-bd6a4",
+    "storage_bucket": "android-quiz-bd6a4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748258728250:android:580067e9c022baed38d803",
+        "android_client_info": {
+          "package_name": "phuc.edu.quizappmath_3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn5h2_6GRX2fFbWJ4OhDAxG-td65t_SeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
